@@ -36,7 +36,7 @@ int main()
 //   cout << "(Closed Loop) It took " << numGuessesClosed
 //      << " guesses to get the answer (" << answer << ")." << endl;
    int numSuccesses = 0;
-   int totalRuns = 100000;
+   int totalRuns = 10000;
 
    for (int numRuns = 0; numRuns < totalRuns; numRuns++)
    {
